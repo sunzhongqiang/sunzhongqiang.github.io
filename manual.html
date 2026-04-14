@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <!-- 移动端适配 -->
@@ -26,7 +27,7 @@
             color: white;
             padding: 20px;
             text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         /* 主体容器：侧边导航 + 内容区 */
@@ -44,7 +45,7 @@
             background: white;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             position: sticky;
             top: 20px;
             height: fit-content;
@@ -85,7 +86,7 @@
             background: white;
             padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         }
 
         .help-section {
@@ -104,7 +105,8 @@
             font-size: 15px;
         }
 
-        .help-section ul, .help-section ol {
+        .help-section ul,
+        .help-section ol {
             margin: 12px 0 12px 25px;
         }
 
@@ -135,7 +137,7 @@
             font-size: 18px;
             cursor: pointer;
             display: none;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
         }
 
         #backTop:hover {
@@ -147,6 +149,7 @@
             .help-container {
                 flex-direction: column;
             }
+
             .help-sidebar {
                 width: 100%;
                 position: static;
@@ -163,11 +166,12 @@
             max-width: 600px;
             height: auto;
             border-radius: 6px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             display: inline-block;
         }
     </style>
 </head>
+
 <body>
     <!-- 页面头部 -->
     <header class="help-header">
@@ -186,9 +190,9 @@
                 <li><a href="#basic">3. 登录应用</a></li>
                 <li><a href="#advanced">4. 基础功能使用</a></li>
                 <li><a href="#setting">5. 基本设置</a></li>
-                <li><a href="#recover">6. 密码恢复</a></li>
-                <!-- <li><a href="#faq">5. 常见问题解答</a></li> -->
-                <li><a href="#contact">7. 联系我们</a></li>
+                <li><a href="#recover">6. 数据恢复</a></li>
+                <li><a href="#faq">7. 常见问题解答</a></li>
+                <li><a href="#contact">8. 联系我们</a></li>
             </ul>
         </aside>
 
@@ -198,7 +202,8 @@
             <section id="intro" class="help-section">
                 <h2>1. 产品介绍</h2>
                 <p>个人私密空间是一个本地文件加密和解密的应用，提供安全的存储空间，帮助用户安全存储和管理自己的数字资产，如图片、视频、文档等。</p>
-                <p>当你的电脑需要修理时，当有人需要借用你的电脑时，你不用担心对方会访问不该访问的内容，因为个人私密空间会加密存储你受保护的文件，防止被泄露。没有密码，对方无法访问你的受保护的内容；没有秘钥，对方无法解密你的受保护的内容。</p>
+                <p>当你的电脑需要修理时，当有人需要借用你的电脑时，你不用担心对方会访问不该访问的内容，因为个人私密空间会加密存储你受保护的文件，防止被泄露。没有密码，对方无法访问你的受保护的内容；没有秘钥，对方无法解密你的受保护的内容。
+                </p>
                 <div class="card">
                     <p>💡 提示：让应用保护你的数字资产，防止泄露！不要让自己的数据在互联网上裸奔，也不要出现“某某门”事件。</p>
                 </div>
@@ -207,7 +212,7 @@
             <!-- 章节 2 -->
             <section id="install" class="help-section">
                 <h2>2. 初始化密码</h2>
-                 <div class="img-wrapper">
+                <div class="img-wrapper">
                     <img src="images/init_form.png" alt="初始化密码界面">
                     <p style="margin-top:8px; color:#666;">初始化密码界面</p>
                 </div>
@@ -230,7 +235,7 @@
             <!-- 章节 3 -->
             <section id="basic" class="help-section">
                 <h2>3. 登录应用</h2>
-                 <div class="img-wrapper">
+                <div class="img-wrapper">
                     <img src="images/login_page.png" alt="登录界面">
                     <p style="margin-top:8px; color:#666;">登录界面</p>
                 </div>
@@ -241,34 +246,55 @@
             <!-- 章节 4 -->
             <section id="advanced" class="help-section">
                 <h2>4. 基础功能使用</h2>
-                 <div class="img-wrapper">
+                <div class="img-wrapper">
                     <img src="images/home.png" alt="主界面">
                     <p style="margin-top:8px; color:#666;">主界面</p>
                 </div>
-                 <div class="img-wrapper">
+                <div class="img-wrapper">
                     <img src="images/action.png" alt="操作按钮">
                     <p style="margin-top:8px; color:#666;">操作按钮</p>
                 </div>
-               
-                 <div class="card">
+
+                <div class="card">
                     <p>💡 提示：登录成功后，你就可以使用应用的功能了，下面是一些基础功能的使用说明。</p>
-                    <ul>
-                        <li>上传文件：点击应用右上角或者应用底部按钮栏的上传文件按钮，选择要上传的文件，即可上传到应用中。应用会自动加密文件，存储在安全位置，但是不会原文件进行删除，如需删除需要手动删除。</li>
-                        <li>导出文件：右键文件，或者选择后，点击应用底部按钮栏的导出文件按钮，即可导出应用中的文件到选择的路径。导出的文件会自动解密，你可以直接使用。</li>
-                        <li>导出加密文件：右键文件，选择导出应用中的加密文件到选择的路径。导出的加密文件需要重新导入应用中，才能使用。</li>
-                        <li>清理解密缓存：点击应用底部按钮栏的清理解密缓存按钮，即可清空应用中的解密文件，防止被泄露。注意如果不要在应用内修改文件，变更会被清理掉，如果需要保留变更，建议导出后操作并重新加密。</li>
-                    </ul>
                 </div>
-                 <div class="img-wrapper">
+                <p><strong>上传/导入文件：</strong> </p>
+                <p>你可以点击应用右上角或者应用底部按钮栏的上传文件按钮，选择要上传的文件，即可上传到应用中。</p>
+                <p>应用会自动加密文件，存储在本地安全位置，但是不会原文件进行删除，如果需要删除原文件，需要手动进行删除。</p>
+                <p><strong>打开文件：</strong> </p>
+                <p>你可以双击文件，即可打开文件，也可以右键文件，选择打开文件。</p>
+                <p>打开文件时，应该会自动解密文件，并调用系统默认应用打开文件。文件状态由加密状态切换为解密状态，你可以手动清理解密缓存，防止被泄露，或者退出时有应用自动清理。注意如果不要在应用内修改文件，变更会被清理掉，如果需要保留变更，建议先导出应该后操作并重新加密。
+                </p>
+
+                <p><strong>导出文件：</strong> </p>
+                <p>你可以右键文件，或者选择后，点击应用底部按钮栏的导出文件按钮，即可导出应用中的文件到选择的路径。</p>
+                <p>导出的文件会自动解密，并保留原始文件的名称，后续你可以直接使用。</p>
+
+                <p><strong>导出加密文件：</strong> </p>
+                <p>你可以右键文件，选择导出应用中的加密文件到选择的路径。</p>
+                <p>导出的加密文件需要重新导入应用中，才能使用。导出加密文件是为了安全传递文件，防止传输备份过程中被窃取。</p>
+                <p><strong>清理/删除解密缓存文件：</strong></p>
+                <p>你可以点击应用底部按钮栏的清理解密缓存按钮，即可清空应用中的解密文件，防止被泄露。</p>
+                <p>打开和导出文件时都会临时解密文件，此时如果设备不在自己手里被他人使用可能会被其他工具搜索或者扫描到。外借设备或者维修设备时注意清理解密缓存文件，或者选择退出登录应用，会自动进行清理。清理文件时注意：如果在应用内直接打开和修改文件，清理工作会将变更内容清理掉，如果需要保留变更，建议先导出应该后操作并重新加密。
+                </p>
+
+                <div class="card">
+                    <p>💡 应用只作为文件加密和存储的地方</p>
+                </div>
+
+                <p><strong>回收站/物理删除</strong> </p>
+                <p>应用同样提供了回收站功能，你可以将文件移动到回收站，回收站中的文件无法不搜索。在回收站的文件，你可以选择物理删除，也可以选择恢复。</p>
+
+                <div class="img-wrapper">
                     <img src="images/contextmenu.png" style="width: 300px;" alt="右键菜单">
                     <p style="margin-top:8px; color:#666;">右键菜单</p>
                 </div>
             </section>
 
-             <!-- 章节 5 -->
+            <!-- 章节 5 -->
             <section id="setting" class="help-section">
                 <h2>5. 基本设置</h2>
-                 <div class="img-wrapper">
+                <div class="img-wrapper">
                     <img src="images/setting1.png" alt="设置界面">
                     <p style="margin-top:8px; color:#666;">设置界面</p>
                 </div>
@@ -280,7 +306,7 @@
             <!-- 章节 6 -->
             <section id="recover" class="help-section">
                 <h2>6. 数据恢复</h2>
-                 <div class="img-wrapper">
+                <div class="img-wrapper">
                     <img src="images/recovery.png" alt="设置界面">
                     <p style="margin-top:8px; color:#666;">设置界面</p>
                 </div>
@@ -293,20 +319,24 @@
             </section>
 
             <!-- 章节 5 -->
-            <!-- <section id="faq" class="help-section">
-                <h2>5. 常见问题解答</h2>
-                <p><strong>Q：问题 1</strong></p>
-                <p>A：回答内容</p>
-                <p><strong>Q：问题 2</strong></p>
-                <p>A：回答内容</p>
-            </section> -->
+            <section id="faq" class="help-section">
+                <h2>7. 常见问题解答</h2>
+                <p><strong>Q：文件加密算法</strong></p>
+                <p>A：应用使用AES-256加密算法对文件进行加密。</p>
+                <p><strong>Q：安全性问题</strong></p>
+                <p>A：AES-256加密算法作为标准国际算法，目前安全，应用使用加强秘钥生成，没有使用密码作为秘钥，很难被破解。以2026年的科技水平，在排除量子计算的因素下，AES-256加密算法的安全性是足够的。
+                </p>
+                <p><strong>Q：数据安全问题</strong></p>
+                <p>A：应用加密和存储完全基于本地，没有开启网络能力。这意味着应用不会收集任何个人信息，不会将数据上传到服务器，也不会将数据下载到本地。如果想要云端备份，可以选择第三方云服务，备份加密文件到云服务中，个人数据会更加的安全，避免数据泄露和丢失。
+                </p>
+            </section>
 
             <!-- 章节 6 -->
             <section id="contact" class="help-section">
-                <h2>7. 联系我们</h2>
+                <h2>8. 联系我们</h2>
                 <p>如遇到问题或需要联系，可以通过以下方式联系我们：</p>
                 <p>技术支持邮箱：aboysun@126.com</p>
-                 <div class="img-wrapper">
+                <div class="img-wrapper">
                     <img src="images/wechat.jpg" style="height: 300px;" alt="微信">
                     <p style="margin-top:8px; color:#666;">微信二维码</p>
                 </div>
@@ -328,4 +358,5 @@
         });
     </script>
 </body>
+
 </html>
